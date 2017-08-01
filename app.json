@@ -1,0 +1,33 @@
+{
+    "pages": [
+        "pages/home/index",
+        "pages/mine/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "金湖县马拉松协会"
+    },
+    "tabBar": {
+        "color": "#6e6d6b",
+        "selectedColor": "#1296db",
+        "borderStyle": "white",
+        "backgroundColor": "#fff",
+        "box-shadow": "0 0 6px 0",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "iconPath": "utils/images/all.png",
+            "selectedIconPath": "utils/images/all-active.png",
+            "text": "马拉松之家"
+        },
+        {
+            "pagePath": "pages/mine/index",
+            "iconPath": "utils/images/account-filling.png",
+            "selectedIconPath": "utils/images/account-filling-active.png",
+            "text": "个人中心"
+        }]
+    },
+    "debug": true
+}
